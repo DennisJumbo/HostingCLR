@@ -1,7 +1,7 @@
 # HostingCLR
 HostingCLR For dotNet GUI/Console exe
 
-- GUI 
+- Console
 
 		int		argc = 1;
 		const	WCHAR* argv[3] = { L"", L"", L""};
@@ -25,7 +25,7 @@ HostingCLR For dotNet GUI/Console exe
 		}
 
 		HRESULT hr = pMethodInfo->Invoke_3(vObj, args, &vRet);
-- Console
+- GUI 
   
 		VARIANT ret_val;
 		ZeroMemory(&ret_val, sizeof(VARIANT));
